@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/akros2_teleop/akros2_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/akros2_teleop/akros2_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/akros2_teleop/akros2_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/akros2_teleop/akros2_teleop.egg-info/requires.txt
+writing top-level names to ../../build/akros2_teleop/akros2_teleop.egg-info/top_level.txt
+reading manifest file '../../build/akros2_teleop/akros2_teleop.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/akros2_teleop/akros2_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/disney/ros2_ws/install/akros2_teleop/lib/python3.10/site-packages/akros2_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/akros2_teleop/akros2_teleop.egg-info to /home/disney/ros2_ws/install/akros2_teleop/lib/python3.10/site-packages/akros2_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_mode_handler script to /home/disney/ros2_ws/install/akros2_teleop/lib/akros2_teleop
+Installing teleop_node script to /home/disney/ros2_ws/install/akros2_teleop/lib/akros2_teleop
+Installing twist_mixer script to /home/disney/ros2_ws/install/akros2_teleop/lib/akros2_teleop
+writing list of installed files to '/home/disney/ros2_ws/build/akros2_teleop/install.log'

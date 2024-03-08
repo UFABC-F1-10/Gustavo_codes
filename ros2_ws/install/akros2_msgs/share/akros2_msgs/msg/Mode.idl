@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from akros2_msgs/msg/Mode.msg
+// generated code does not contain a copyright notice
+
+
+module akros2_msgs {
+  module msg {
+    struct Mode {
+      boolean estop;
+
+      boolean auto_t;
+    };
+  };
+};
