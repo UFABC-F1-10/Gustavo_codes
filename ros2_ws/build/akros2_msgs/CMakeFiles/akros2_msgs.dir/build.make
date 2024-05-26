@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/disney/ros2_ws/src/akros2_msgs
+CMAKE_SOURCE_DIR = /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/disney/ros2_ws/build/akros2_msgs
+CMAKE_BINARY_DIR = /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs
 
 # Utility rule file for akros2_msgs.
 
@@ -66,7 +66,7 @@ include CMakeFiles/akros2_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/akros2_msgs.dir/progress.make
 
-CMakeFiles/akros2_msgs: /home/disney/ros2_ws/src/akros2_msgs/msg/Mode.msg
+CMakeFiles/akros2_msgs: /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs/msg/Mode.msg
 CMakeFiles/akros2_msgs: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/akros2_msgs: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/akros2_msgs: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -111,6 +111,6 @@ CMakeFiles/akros2_msgs.dir/clean:
 .PHONY : CMakeFiles/akros2_msgs.dir/clean
 
 CMakeFiles/akros2_msgs.dir/depend:
-	cd /home/disney/ros2_ws/build/akros2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/disney/ros2_ws/src/akros2_msgs /home/disney/ros2_ws/src/akros2_msgs /home/disney/ros2_ws/build/akros2_msgs /home/disney/ros2_ws/build/akros2_msgs /home/disney/ros2_ws/build/akros2_msgs/CMakeFiles/akros2_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/CMakeFiles/akros2_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/akros2_msgs.dir/depend
 

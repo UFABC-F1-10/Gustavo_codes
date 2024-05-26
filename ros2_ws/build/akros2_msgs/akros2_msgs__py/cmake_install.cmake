@@ -1,8 +1,8 @@
-# Install script for directory: /home/disney/ros2_ws/build/akros2_msgs/akros2_msgs__py
+# Install script for directory: /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/akros2_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/disney/ros2_ws/install/akros2_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/disney/Documents/Gustavo_codes/ros2_ws/install/akros2_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

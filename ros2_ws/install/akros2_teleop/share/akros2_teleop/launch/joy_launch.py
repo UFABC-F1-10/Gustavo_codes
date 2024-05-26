@@ -28,7 +28,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
             name='joy_config',
-            default_value='steamdeck',
+            default_value='ps4',
             description='Select Controller: ps4 (PS4/DS4), stadia (Google Stadia), sn30pro (8BitDo SN30 Pro), steamdeck (Valve Steam Deck), none (Disabled)'),
 
         GroupAction(
@@ -39,9 +39,9 @@ def generate_launch_description():
                     executable='joy_node',
                     name='joy_node',
                     parameters=[{'dev': '/dev/input/js0',
-                                 'deadzone': 0.1,
+                                 'deadzone': 0.4,
                                  'autorepeat_rate': 20.0,
-                                 'coalesce_interval': 0.01,
+                                 'coalesce_interval': 0.001,
                     }],
                     arguments=["--ros-args", "--log-level", "ERROR"]),
 

@@ -1,0 +1,26 @@
+[0.818s] Invoking command in '/home/disney/Documents/Gustavo_codes/ros2_ws/src/Joy_ackerman': PYTHONPATH=/home/disney/Documents/Gustavo_codes/ros2_ws/build/joy_ackerman/prefix_override:/home/disney/Documents/Gustavo_codes/ros2_ws/install/joy_ackerman/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joy_ackerman build --build-base /home/disney/Documents/Gustavo_codes/ros2_ws/build/joy_ackerman/build install --record /home/disney/Documents/Gustavo_codes/ros2_ws/build/joy_ackerman/install.log --install-scripts $base/lib/joy_ackerman --single-version-externally-managed install_data
+[1.121s] /home/disney/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.121s]   warnings.warn(
+[1.158s] running egg_info
+[1.158s] writing ../../build/joy_ackerman/joy_ackerman.egg-info/PKG-INFO
+[1.158s] writing dependency_links to ../../build/joy_ackerman/joy_ackerman.egg-info/dependency_links.txt
+[1.158s] writing entry points to ../../build/joy_ackerman/joy_ackerman.egg-info/entry_points.txt
+[1.159s] writing requirements to ../../build/joy_ackerman/joy_ackerman.egg-info/requires.txt
+[1.159s] writing top-level names to ../../build/joy_ackerman/joy_ackerman.egg-info/top_level.txt
+[1.160s] reading manifest file '../../build/joy_ackerman/joy_ackerman.egg-info/SOURCES.txt'
+[1.161s] writing manifest file '../../build/joy_ackerman/joy_ackerman.egg-info/SOURCES.txt'
+[1.161s] running build
+[1.161s] running build_py
+[1.161s] copying joy_ackerman/joy_ackerman.py -> /home/disney/Documents/Gustavo_codes/ros2_ws/build/joy_ackerman/build/lib/joy_ackerman
+[1.161s] running install
+[1.162s] running install_lib
+[1.162s] copying /home/disney/Documents/Gustavo_codes/ros2_ws/build/joy_ackerman/build/lib/joy_ackerman/joy_ackerman.py -> /home/disney/Documents/Gustavo_codes/ros2_ws/install/joy_ackerman/lib/python3.10/site-packages/joy_ackerman
+[1.163s] byte-compiling /home/disney/Documents/Gustavo_codes/ros2_ws/install/joy_ackerman/lib/python3.10/site-packages/joy_ackerman/joy_ackerman.py to joy_ackerman.cpython-310.pyc
+[1.163s] running install_data
+[1.163s] running install_egg_info
+[1.168s] removing '/home/disney/Documents/Gustavo_codes/ros2_ws/install/joy_ackerman/lib/python3.10/site-packages/joy_ackerman-0.0.0-py3.10.egg-info' (and everything under it)
+[1.168s] Copying ../../build/joy_ackerman/joy_ackerman.egg-info to /home/disney/Documents/Gustavo_codes/ros2_ws/install/joy_ackerman/lib/python3.10/site-packages/joy_ackerman-0.0.0-py3.10.egg-info
+[1.168s] running install_scripts
+[1.190s] Installing joy_ackerman script to /home/disney/Documents/Gustavo_codes/ros2_ws/install/joy_ackerman/lib/joy_ackerman
+[1.190s] writing list of installed files to '/home/disney/Documents/Gustavo_codes/ros2_ws/build/joy_ackerman/install.log'
+[1.219s] Invoked command in '/home/disney/Documents/Gustavo_codes/ros2_ws/src/Joy_ackerman' returned '0': PYTHONPATH=/home/disney/Documents/Gustavo_codes/ros2_ws/build/joy_ackerman/prefix_override:/home/disney/Documents/Gustavo_codes/ros2_ws/install/joy_ackerman/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joy_ackerman build --build-base /home/disney/Documents/Gustavo_codes/ros2_ws/build/joy_ackerman/build install --record /home/disney/Documents/Gustavo_codes/ros2_ws/build/joy_ackerman/install.log --install-scripts $base/lib/joy_ackerman --single-version-externally-managed install_data

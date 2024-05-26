@@ -1,9 +1,9 @@
 {
   "package_name": "akros2_msgs",
-  "output_dir": "/home/disney/ros2_ws/build/akros2_msgs/rosidl_typesupport_cpp/akros2_msgs",
+  "output_dir": "/home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/rosidl_typesupport_cpp/akros2_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/disney/ros2_ws/build/akros2_msgs/rosidl_adapter/akros2_msgs:msg/Mode.idl"
+    "/home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/rosidl_adapter/akros2_msgs:msg/Mode.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -46,7 +46,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/disney/ros2_ws/build/akros2_msgs/rosidl_adapter/akros2_msgs/msg/Mode.idl",
+    "/home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/rosidl_adapter/akros2_msgs/msg/Mode.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

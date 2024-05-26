@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/disney/ros2_ws/src/akros2_msgs
+CMAKE_SOURCE_DIR = /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/disney/ros2_ws/build/akros2_msgs
+CMAKE_BINARY_DIR = /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs
 
 # Utility rule file for akros2_msgs_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/akros2_msgs_uninstall.dir/compiler_depend.make
 include CMakeFiles/akros2_msgs_uninstall.dir/progress.make
 
 CMakeFiles/akros2_msgs_uninstall:
-	/usr/bin/cmake -P /home/disney/ros2_ws/build/akros2_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 akros2_msgs_uninstall: CMakeFiles/akros2_msgs_uninstall
 akros2_msgs_uninstall: CMakeFiles/akros2_msgs_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/akros2_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/akros2_msgs_uninstall.dir/clean
 
 CMakeFiles/akros2_msgs_uninstall.dir/depend:
-	cd /home/disney/ros2_ws/build/akros2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/disney/ros2_ws/src/akros2_msgs /home/disney/ros2_ws/src/akros2_msgs /home/disney/ros2_ws/build/akros2_msgs /home/disney/ros2_ws/build/akros2_msgs /home/disney/ros2_ws/build/akros2_msgs/CMakeFiles/akros2_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/CMakeFiles/akros2_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/akros2_msgs_uninstall.dir/depend
 

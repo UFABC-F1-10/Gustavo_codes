@@ -1,0 +1,39 @@
+[1.476s] Invoking command in '/home/disney/Documents/Gustavo_codes/ros2_ws/src/perfil_lidar': PYTHONPATH=/home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/prefix_override:/home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/perfil_lidar build --build-base /home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/build install --record /home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/install.log --install-scripts $base/lib/perfil_lidar --single-version-externally-managed install_data
+[1.777s] /home/disney/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.777s]   warnings.warn(
+[1.810s] running egg_info
+[1.811s] creating ../../build/perfil_lidar/perfil_lidar.egg-info
+[1.811s] writing ../../build/perfil_lidar/perfil_lidar.egg-info/PKG-INFO
+[1.811s] writing dependency_links to ../../build/perfil_lidar/perfil_lidar.egg-info/dependency_links.txt
+[1.811s] writing entry points to ../../build/perfil_lidar/perfil_lidar.egg-info/entry_points.txt
+[1.811s] writing requirements to ../../build/perfil_lidar/perfil_lidar.egg-info/requires.txt
+[1.812s] writing top-level names to ../../build/perfil_lidar/perfil_lidar.egg-info/top_level.txt
+[1.812s] writing manifest file '../../build/perfil_lidar/perfil_lidar.egg-info/SOURCES.txt'
+[1.815s] reading manifest file '../../build/perfil_lidar/perfil_lidar.egg-info/SOURCES.txt'
+[1.816s] writing manifest file '../../build/perfil_lidar/perfil_lidar.egg-info/SOURCES.txt'
+[1.816s] running build
+[1.816s] running build_py
+[1.816s] creating /home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/build
+[1.816s] creating /home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/build/lib
+[1.816s] creating /home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/build/lib/perfil_lidar
+[1.817s] copying perfil_lidar/perfil_lidar.py -> /home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/build/lib/perfil_lidar
+[1.817s] copying perfil_lidar/__init__.py -> /home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/build/lib/perfil_lidar
+[1.817s] running install
+[1.817s] running install_lib
+[1.819s] creating /home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/lib/python3.10/site-packages/perfil_lidar
+[1.819s] copying /home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/build/lib/perfil_lidar/perfil_lidar.py -> /home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/lib/python3.10/site-packages/perfil_lidar
+[1.819s] copying /home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/build/lib/perfil_lidar/__init__.py -> /home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/lib/python3.10/site-packages/perfil_lidar
+[1.820s] byte-compiling /home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/lib/python3.10/site-packages/perfil_lidar/perfil_lidar.py to perfil_lidar.cpython-310.pyc
+[1.821s] byte-compiling /home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/lib/python3.10/site-packages/perfil_lidar/__init__.py to __init__.cpython-310.pyc
+[1.821s] running install_data
+[1.822s] creating /home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/share/ament_index
+[1.822s] creating /home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/share/ament_index/resource_index
+[1.822s] creating /home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/share/ament_index/resource_index/packages
+[1.822s] copying resource/perfil_lidar -> /home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/share/ament_index/resource_index/packages
+[1.822s] copying package.xml -> /home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/share/perfil_lidar
+[1.822s] running install_egg_info
+[1.825s] Copying ../../build/perfil_lidar/perfil_lidar.egg-info to /home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/lib/python3.10/site-packages/perfil_lidar-0.0.0-py3.10.egg-info
+[1.826s] running install_scripts
+[1.852s] Installing perfil_lidar script to /home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/lib/perfil_lidar
+[1.853s] writing list of installed files to '/home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/install.log'
+[1.882s] Invoked command in '/home/disney/Documents/Gustavo_codes/ros2_ws/src/perfil_lidar' returned '0': PYTHONPATH=/home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/prefix_override:/home/disney/Documents/Gustavo_codes/ros2_ws/install/perfil_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/perfil_lidar build --build-base /home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/build install --record /home/disney/Documents/Gustavo_codes/ros2_ws/build/perfil_lidar/install.log --install-scripts $base/lib/perfil_lidar --single-version-externally-managed install_data

@@ -17,5 +17,7 @@ Comando para trasnformar os dados da coneccao em twist :
 
 ```
 ros2 launch teleop_twist_joy teleop-launch.py
+joy_config:='ps3'
+
 ```
 

@@ -33,7 +33,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
             name='joy_config',
-            default_value='steamdeck',
+            default_value='ps4',
             description='Select Controller: ps4 (PS4/DS4), stadia (Google Stadia), sn30pro (8BitDo SN30 Pro), steamdeck (Valve Steam Deck), none (Disabled)'),
 
         DeclareLaunchArgument(
@@ -46,7 +46,7 @@ def generate_launch_description():
             package='akros2_teleop',
             executable='teleop_node',
             output='screen',
-            parameters=[{'timer_period': 0.02}, joy_mode_config_dynamic_path],
+            parameters=[{'timer_period': 0.01}, joy_mode_config_dynamic_path],
             remappings=[
                 ('/teleop_vel', '/joy_vel'),
                 ('/auto_vel', '/nav_vel'),
@@ -61,7 +61,7 @@ def generate_launch_description():
                     executable='twist_mixer',
                     name='twist_mixer',
                     output='screen',
-                    parameters=[{'timer_period': 0.02}],
+                    parameters=[{'timer_period': 0.01}],
                     remappings=[('/teleop_vel', '/joy_vel'),
                                 ('/auto_vel', '/nav_vel'),
                                 ('/mix_vel', '/cmd_vel')]),

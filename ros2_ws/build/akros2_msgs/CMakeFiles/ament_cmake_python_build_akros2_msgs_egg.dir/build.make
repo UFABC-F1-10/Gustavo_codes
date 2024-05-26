@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/disney/ros2_ws/src/akros2_msgs
+CMAKE_SOURCE_DIR = /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/disney/ros2_ws/build/akros2_msgs
+CMAKE_BINARY_DIR = /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs
 
 # Utility rule file for ament_cmake_python_build_akros2_msgs_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_akros2_msgs_egg.dir/compiler_depend.
 include CMakeFiles/ament_cmake_python_build_akros2_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_akros2_msgs_egg:
-	cd /home/disney/ros2_ws/build/akros2_msgs/ament_cmake_python/akros2_msgs && /usr/bin/python3 setup.py egg_info
+	cd /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/ament_cmake_python/akros2_msgs && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_akros2_msgs_egg: CMakeFiles/ament_cmake_python_build_akros2_msgs_egg
 ament_cmake_python_build_akros2_msgs_egg: CMakeFiles/ament_cmake_python_build_akros2_msgs_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_akros2_msgs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_akros2_msgs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_akros2_msgs_egg.dir/depend:
-	cd /home/disney/ros2_ws/build/akros2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/disney/ros2_ws/src/akros2_msgs /home/disney/ros2_ws/src/akros2_msgs /home/disney/ros2_ws/build/akros2_msgs /home/disney/ros2_ws/build/akros2_msgs /home/disney/ros2_ws/build/akros2_msgs/CMakeFiles/ament_cmake_python_build_akros2_msgs_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/CMakeFiles/ament_cmake_python_build_akros2_msgs_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_akros2_msgs_egg.dir/depend
 

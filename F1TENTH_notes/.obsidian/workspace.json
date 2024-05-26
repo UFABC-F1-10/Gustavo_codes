@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resampling methods.md",
+                "file": "whriter_copilor.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resampling methods.md",
+                "file": "whriter_copilor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resampling methods.md",
+                "file": "whriter_copilor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resampling methods.md"
+                "file": "whriter_copilor.md"
               }
             }
           }
@@ -147,19 +147,20 @@
   },
   "active": "24ddc0408ea9d486",
   "lastOpenFiles": [
+    "F1TENTH Road Map.md",
+    "whriter_copilor.md",
+    "PS4_controller.md",
+    "Simulator.md",
+    "Dependencies.md",
+    "Batery.md",
     "Deep Learning.md",
     "Resampling methods.md",
     "Docker_basic.md",
-    "F1TENTH Road Map.md",
     "ROS2.md",
-    "Simulator.md",
     "Trajectory planning.md",
     "VESC.md",
-    "PS4_controller.md",
     "Sem título.md",
-    "Dependencies.md",
     "Untitled",
-    "Batery.md",
     "2024-02-13.md",
     "Untitled.md",
     "Untitled.canvas",

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/disney/ros2_ws/src/akros2_msgs
+CMAKE_SOURCE_DIR = /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/disney/ros2_ws/build/akros2_msgs
+CMAKE_BINARY_DIR = /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs
 
 # Include any dependencies generated for this target.
 include CMakeFiles/akros2_msgs__rosidl_generator_py.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/akros2_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.o: CMakeFiles/akros2_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.o: rosidl_generator_py/akros2_msgs/msg/_mode_s.c
 CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.o: CMakeFiles/akros2_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/disney/ros2_ws/build/akros2_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.o -MF CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.o.d -o CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.o -c /home/disney/ros2_ws/build/akros2_msgs/rosidl_generator_py/akros2_msgs/msg/_mode_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.o -MF CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.o.d -o CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.o -c /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/rosidl_generator_py/akros2_msgs/msg/_mode_s.c
 
 CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/disney/ros2_ws/build/akros2_msgs/rosidl_generator_py/akros2_msgs/msg/_mode_s.c > CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/rosidl_generator_py/akros2_msgs/msg/_mode_s.c > CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.i
 
 CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/disney/ros2_ws/build/akros2_msgs/rosidl_generator_py/akros2_msgs/msg/_mode_s.c -o CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/rosidl_generator_py/akros2_msgs/msg/_mode_s.c -o CMakeFiles/akros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/akros2_msgs/msg/_mode_s.c.s
 
 # Object files for target akros2_msgs__rosidl_generator_py
 akros2_msgs__rosidl_generator_py_OBJECTS = \
@@ -105,7 +105,7 @@ rosidl_generator_py/akros2_msgs/libakros2_msgs__rosidl_generator_py.so: /opt/ros
 rosidl_generator_py/akros2_msgs/libakros2_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/akros2_msgs/libakros2_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/akros2_msgs/libakros2_msgs__rosidl_generator_py.so: CMakeFiles/akros2_msgs__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/disney/ros2_ws/build/akros2_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/akros2_msgs/libakros2_msgs__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/akros2_msgs/libakros2_msgs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/akros2_msgs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -117,6 +117,6 @@ CMakeFiles/akros2_msgs__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/akros2_msgs__rosidl_generator_py.dir/clean
 
 CMakeFiles/akros2_msgs__rosidl_generator_py.dir/depend:
-	cd /home/disney/ros2_ws/build/akros2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/disney/ros2_ws/src/akros2_msgs /home/disney/ros2_ws/src/akros2_msgs /home/disney/ros2_ws/build/akros2_msgs /home/disney/ros2_ws/build/akros2_msgs /home/disney/ros2_ws/build/akros2_msgs/CMakeFiles/akros2_msgs__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/src/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs /home/disney/Documents/Gustavo_codes/ros2_ws/build/akros2_msgs/CMakeFiles/akros2_msgs__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/akros2_msgs__rosidl_generator_py.dir/depend
 
