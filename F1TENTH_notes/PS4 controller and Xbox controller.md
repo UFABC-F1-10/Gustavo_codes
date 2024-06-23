@@ -2,13 +2,6 @@
 
 This project is a simplified version of the [ds4_driver](https://wiki.ros.org/ds4_driver). It focuses on using a PS4 controller to generate data for training a deep learning model. The project includes necessary ROS 2 packages to capture joystick commands and convert them to Ackermann steering commands.
 
-## Index
-- [Prerequisites](#prerequisites)
-- [Running the Code](#running-the-code)
-  - [Start the Joy Node](#1-start-the-joy-node)
-  - [Run the Joy to Ackermann Node](#2-run-the-joy-to-ackermann-node)
-- [Acknowledgments](#acknowledgments)
-
 ## Prerequisites
 
 Make sure you have ROS 2 Humble Hawksbill installed. Then, install the required packages:
@@ -38,8 +31,4 @@ ros2 run joy_ackerman joy_ackerman
 
 ## Acknowledgments
 
-Mention any references or credits here. For example:
-
 - [ds4_driver](https://wiki.ros.org/ds4_driver) - Original project that inspired this simplified version.
-
-- Most of the codes on this project is related to the sequence of lessons available [here](https://www.youtube.com/watch?v=v6w_zVHL8WQ&amp;list=PL7rtKJAz_mPdFDJtufKmqfWRNu55s_LMc) 

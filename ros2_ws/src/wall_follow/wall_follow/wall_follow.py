@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import LaserScan
-from geometry_msgs.msg import Twist
+from ackermann_msgs.msg import AckermannDriveStamped
 import matplotlib.pyplot as plt
 import math
 import numpy as np
@@ -30,8 +30,8 @@ class WallFollow(Node):
         )
 
         self.cmd_vel_publisher = self.create_publisher(
-            Twist,
-            '/cmd_vel',
+            AckermannDriveStamped,
+            '/drive',
             10
         )
         # PID parameters
@@ -60,7 +60,7 @@ class WallFollow(Node):
         self.time_list.append(current_time)
 
         # Plot the error vs. time
-        self.plot_error_vs_time()
+        #self.plot_error_vs_time()
 
     def get_range(self, range_data, angle):
         if not range_data:
@@ -75,12 +75,12 @@ class WallFollow(Node):
     def get_error(self, msg, dist):
         b = msg.ranges[int(540-(90)/0.246)]
         a = msg.ranges[int(540-(45)/0.246)]
-        teta = math.radians(45)
+        teta = 45
         alpha = math.atan((math.cos(teta)-b)/(a*math.sin(teta)))
         D = b*math.cos(alpha)
         Dt = D + (0.1*math.sin(alpha))
         error = dist - Dt
-        return error
+        return math.radians(error)
 
     def calculate_velocity(self, error):
         if error < 0:
@@ -93,9 +93,10 @@ class WallFollow(Node):
         self.integral += error
         angle = self.kp * error + self.ki * self.integral + self.kd * (error - self.prev_error)
         self.prev_error = error
-        drive_msg = Twist()
-        drive_msg.linear.x = velocity
-        drive_msg.angular.z = angle
+        drive_msg = AckermannDriveStamped()
+        drive_msg.drive.speed = velocity
+        print(angle)
+        drive_msg.drive.steering_angle = angle
         self.cmd_vel_publisher.publish(drive_msg)
 
     def plot_error_vs_time(self):

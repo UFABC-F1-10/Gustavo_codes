@@ -11,11 +11,28 @@
             "id": "24ddc0408ea9d486",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "whriter_copilor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8a6d6bdb0549f85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PS4 controller and Xbox controller.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PS4 controller and Xbox controller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PS4 controller and Xbox controller.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "PS4 controller and Xbox controller.md"
+              }
             }
           }
         ]
@@ -138,11 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24ddc0408ea9d486",
+  "active": "b8a6d6bdb0549f85",
   "lastOpenFiles": [
-    "PS4_controller.md",
-    "Resampling methods.md",
+    "Deep Learning.md",
+    "PS4 controller and Xbox controller.md",
     "ROS2.md",
+    "Resampling methods.md",
     "Simulator.md",
     "terminal.md",
     "Trajectory planning.md",
@@ -152,7 +174,6 @@
     "whriter_copilor.md",
     "Dependencies.md",
     "Batery.md",
-    "Deep Learning.md",
     "Sem título.md",
     "Untitled",
     "2024-02-13.md",

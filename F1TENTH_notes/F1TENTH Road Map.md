@@ -16,6 +16,6 @@ On this part we organize all the basic commands needed to build, run and give so
 
 ## [[Trajectory planning]]
 
-## [[PS4_controller]] 
+## [[PS4 controller and Xbox controller]] 
 
 ## [[whriter_copilor]]
